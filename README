@@ -1,0 +1,9 @@
+#GSB PROD
+
+npm i -g pm2
+pm2 install typescript
+pm2 install @types/node
+
+#comando 
+>pm2 list
+>pm2 start src/server.ts
