@@ -1,0 +1,14 @@
+{
+    "server":[
+        {
+            "name": "dns",
+            "script": "./src/server.ts",
+            "instances": "max",
+            "exec_mode": "cluster",
+            "env":{
+                "NODE_ENV": "producao",
+                "PORT":3001
+            }
+        }
+    ]
+}
